@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Calcula Média Metrocamp</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <style>@import 'https://fonts.googleapis.com/css?family=Quicksand:300';</style>
+  </head>
+
+  <body>
+    <nav>
+      <!-- <h1>Calcula metrocamp</h1> -->
+      <a href="http://www.metrocamp.com.br"><img src="/images/devry.svg" alt="" /></a>
+      <hr>
+    </nav>
+      <section class="fields">
+        <h2>Calculadora de Média</h2>
+        <div class="inputs">
+          <label for="m1">Mensal 1</label>
+          <input type="text" name="M1" value="" maxlength="4" id="m1">
+        </div>
+        <div class="inputs">
+          <label for="b1">Bimestral 1</label>
+          <input type="text" name="B1" value="" maxlength="4" id="b1">
+        </div>
+        <div class="inputs">
+          <label for="m2">Mensal 2</label>
+          <input type="text" name="M2" value="" maxlength="4" id="m2">
+        </div>
+        <div class="inputs">
+          <label for="b2">Bimestral 2</label>
+          <input type="text" name="B2" value="" maxlength="4" id="b2">
+        </div>
+        <button type="button" name="calcula" id="calcBtn">Calcular</button>
+        <hr>
+        <section>
+          <label for="">Sua média é: </label>
+          <span id="media"></span>
+        </section>
+
+
+      </section>
+
+  </body>
+
+  <script src="/scripts/jquery-3.1.0.min.js"></script>
+  <script src="/scripts/calculate.js"></script>
+</html>
